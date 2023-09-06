@@ -1,0 +1,14 @@
+n=int(input("Enter the year:"))
+if(n==0):
+    print("Please Enter the correct year")
+elif(n%4==0):
+    print("YEAR IS LEAP YEAR")
+else:
+    print("year is not leap year")
+def fact(n):
+    if(n==1):
+        return 1;
+    else:
+        return n*fact(n-1);
+n=int(input("Enter the factorial value:"));
+print(fact(n))
